@@ -1,9 +1,11 @@
 #include <iostream>
 #include <string>
+#include <vector>
+
+using namespace std;
 
 struct nodo{
 	string dato;
-	nodo *sig;
+	vector <ptrNodo> ptrs;
+	nodo *padre;
 };
-
-//fea tu caga de git
